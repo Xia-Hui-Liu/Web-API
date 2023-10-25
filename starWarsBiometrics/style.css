@@ -1,0 +1,32 @@
+
+header {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.container {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    /* border: 1px black solid; */
+    background-color: aliceblue;
+}
+
+.form-control {
+    width: 350px;
+    height: 50px;
+}
+
+.form-label {
+ font-size: 2em;
+ margin-top: 30px;
+ margin-bottom: 20px;
+}
+
+.btn {
+    margin: 50px;
+}
+
+.btn:hover {
+    color: aqua;
+}
