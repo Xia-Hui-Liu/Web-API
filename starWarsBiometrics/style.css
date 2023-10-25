@@ -30,3 +30,7 @@ header {
 .btn:hover {
     color: aqua;
 }
+
+.footer {
+    margin-top: 18%;
+}

@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 if (!res.ok) {
                     throw new Error(`HTTP error! status: ${res.status}`);
                 } 
-                const data = res.json();
+                const data = await res.json();
                 return data;
             } catch(error){
                 console.error('Error:', error);
